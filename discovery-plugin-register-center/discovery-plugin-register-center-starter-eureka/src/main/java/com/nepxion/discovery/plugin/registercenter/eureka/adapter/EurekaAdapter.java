@@ -27,6 +27,6 @@ public class EurekaAdapter extends AbstractPluginAdapter {
 
         return emptyMetadata;
 
-        // throw new DiscoveryException("Server instance isn't the type of DiscoveryEnabledServer");
+        // throw new DiscoveryException("Service instance isn't the type of EurekaServiceInstance");
     }
 }

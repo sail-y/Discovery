@@ -27,6 +27,6 @@ public class ConsulAdapter extends AbstractPluginAdapter {
 
         return emptyMetadata;
 
-        // throw new DiscoveryException("Server instance isn't the type of ConsulServer");
+        // throw new DiscoveryException("Service instance isn't the type of ConsulServiceInstance");
     }
 }

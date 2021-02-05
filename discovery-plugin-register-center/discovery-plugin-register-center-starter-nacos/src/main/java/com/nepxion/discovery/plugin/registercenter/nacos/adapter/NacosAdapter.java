@@ -35,7 +35,7 @@ public class NacosAdapter extends AbstractPluginAdapter {
 
         return emptyMetadata;
 
-        // throw new DiscoveryException("Server instance isn't the type of NacosServer");
+        // throw new DiscoveryException("Service instance isn't the type of NacosServiceInstance");
     }
 
     @Override
